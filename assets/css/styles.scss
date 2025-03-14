@@ -1,0 +1,17 @@
+@import 'variables';
+@import 'mixins';
+@import 'card';
+
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: $fonts;
+    padding: 0;
+    margin: 0;
+    background: $primary-color;
+    width: 100vw;
+    height: 100vh;
+    @include flex-center();
+}

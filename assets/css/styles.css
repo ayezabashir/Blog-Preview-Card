@@ -1,0 +1,15 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  padding: 0;
+  margin: 0;
+  background: #f4d04e;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=styles.css.map */
