@@ -1,0 +1,21 @@
+.card{
+    background: #fff;
+    max-width: 384px;
+    border: 2px solid #000;
+    padding: $spacing;
+    @include border-radius(20px);
+    &__header{
+        img{
+            width: 100%;
+            @include border-radius(13px);
+        }
+    }
+    &__content{
+        margin-top: $s-spacing;
+    }
+    &__category{
+        display: inline-block;
+        background: $primary-color;
+        padding: $s-spacing;
+    }
+}
