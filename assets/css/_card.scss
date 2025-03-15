@@ -18,6 +18,7 @@
         display: inline-block;
         background: $primary-color;
         padding: $s-spacing 15px;
+        font-size: 16px;
         font-weight: 800;
         @include border-radius(5px);
     }
