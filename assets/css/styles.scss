@@ -19,3 +19,10 @@ body{
 figure{
     margin: 0;
 }
+
+@media screen and (max-width:768px) {
+    body{
+        padding: 25px;
+    }
+    
+}

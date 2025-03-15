@@ -4,6 +4,12 @@
     justify-content: center;
 }
 
+@mixin flex-start{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
 @mixin border-radius($radius) {
     -webkit-border-radius: $radius;
     -moz-border-radius: $radius;

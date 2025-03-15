@@ -3,6 +3,7 @@
     max-width: 384px;
     border: 2px solid #000;
     padding: $spacing;
+    box-shadow: 8px 8px 0 0 #000;
     @include border-radius(20px);
     &__header{
         img{
@@ -16,6 +17,35 @@
     &__category{
         display: inline-block;
         background: $primary-color;
-        padding: $s-spacing;
+        padding: $s-spacing 15px;
+        font-weight: 800;
+        @include border-radius(5px);
+    }
+    &__date{
+        margin-top: 0;
+        font-weight: 500;
+    }
+    &__title{
+        font-weight: 800;
+        &:hover{
+            color: $primary-color;
+            cursor: pointer;
+        }
+    }
+    &__description{
+        font-size: 16px;
+        color: $text-color;
+        line-height: 1.4;
+    }
+    &__author{
+        @include flex-start();
+        gap: 15px;
+        img{
+            width: 32px;
+            height: 32px;
+        }
+        &-name{
+            font-weight: 800;
+        }
     }
 }

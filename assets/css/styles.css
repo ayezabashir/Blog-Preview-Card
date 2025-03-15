@@ -3,6 +3,7 @@
   max-width: 384px;
   border: 2px solid #000;
   padding: 1.5rem;
+  box-shadow: 8px 8px 0 0 #000;
   border-radius: 20px;
 }
 .card__header img {
@@ -15,7 +16,38 @@
 .card__category {
   display: inline-block;
   background: #f4d04e;
-  padding: 0.5rem;
+  padding: 0.5rem 15px;
+  font-weight: 800;
+  border-radius: 5px;
+}
+.card__date {
+  margin-top: 0;
+  font-weight: 500;
+}
+.card__title {
+  font-weight: 800;
+}
+.card__title:hover {
+  color: #f4d04e;
+  cursor: pointer;
+}
+.card__description {
+  font-size: 16px;
+  color: #6b6b6b;
+  line-height: 1.4;
+}
+.card__author {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 15px;
+}
+.card__author img {
+  width: 32px;
+  height: 32px;
+}
+.card__author-name {
+  font-weight: 800;
 }
 
 *, *::after, *::before {
@@ -36,4 +68,10 @@ body {
 
 figure {
   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 25px;
+  }
 }/*# sourceMappingURL=styles.css.map */
